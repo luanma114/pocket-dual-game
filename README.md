@@ -1,2 +1,2 @@
-# pocket-dual-game
-The game of pocket dual.
+# pocket-duel-game
+The game of pocket duel.
