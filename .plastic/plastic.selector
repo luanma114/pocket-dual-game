@@ -1,0 +1,4 @@
+repository "pocket dual@luanma114@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
