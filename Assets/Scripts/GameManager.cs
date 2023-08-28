@@ -397,13 +397,13 @@ public class GameManager : MonoBehaviour
                     if (ComputerCardLibrary.Count > 0)
                     {
                         card = DealCard(ShowPoint.computerHand, ComputerCardLibrary);
-                        player.AddCard(card, false, ShowPoint.computerHand);
+                        computer.AddCard(card, false, ShowPoint.computerHand);
                     }
                     else
                     {
                         WashComputerCard();
                         card = DealCard(ShowPoint.computerHand, ComputerCardLibrary);
-                        player.AddCard(card, false, ShowPoint.computerHand);
+                        computer.AddCard(card, false, ShowPoint.computerHand);
                     }
                 }
                 break;
